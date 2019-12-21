@@ -1,0 +1,11 @@
+framework module HHFPodFramework {
+  umbrella header "HHFPodFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module HHFPodFramework.Swift {
+    header "HHFPodFramework-Swift.h"
+    requires objc
+}

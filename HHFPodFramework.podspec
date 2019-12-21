@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HHFPodFramework"
-  s.version      = "1.0.1"
+  s.version      = "1.0.0"
   s.summary      = "my test to upload framework to CocoaPods"
 
   # This description is used to generate tags and improve search results.
@@ -134,5 +134,6 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "Alamofire"
+  s.dependency "SVProgressHUD", '~> 2.1.2'
 
 end
